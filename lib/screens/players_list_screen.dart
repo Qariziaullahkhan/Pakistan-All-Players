@@ -56,31 +56,6 @@ class _ListviewBuilderScreenState extends State<ListviewBuilderScreen> {
                   },
                 ),
               );
-              //return Text('yes');
-
-              // return ListTile(
-              //   leading: CircleAvatar(
-              //     radius: 30,
-              //     backgroundImage: AssetImage(
-              //       players.images[index],
-              //     ),
-              //   ),
-              //   onTap: () {
-              //     Navigator.of(context)
-              //         .push(MaterialPageRoute(builder: (context) {
-              //       return PlayersDetailScree(players: players);
-              //     }));
-              //   },
-              //   title: Text(
-              //     players.name[index],
-              //   ),
-              //   subtitle: Text(
-              //     players.role[index],
-              //   ),
-              //   trailing: Text(
-              //     players.country[index],
-              //   ),
-              // );
             }),
       ),
     );
